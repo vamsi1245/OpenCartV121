@@ -17,7 +17,7 @@
         <version>3.2.5</version>
        <configuration>
             <suiteXmlFiles>>testng.xml</suiteXmlFiles>
-                    </configuration>
+       </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
