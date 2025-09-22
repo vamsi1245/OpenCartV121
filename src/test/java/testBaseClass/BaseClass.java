@@ -28,11 +28,11 @@ public class BaseClass{
 		p=new Properties();
         p.load(fr);		
 		switch(br.toLowerCase()) {
-		case"chrome":driver=new ChromeDriver();break;
-		case"edge":driver=new ChromeDriver();break;
-		case"firefox":driver=new ChromeDriver();break;
-		default:System.out.println("browser not supported");
-		return;
+		   case"chrome":driver=new ChromeDriver();break;
+		   case"edge":driver=new ChromeDriver();break;
+		   case"firefox":driver=new ChromeDriver();break;
+		   default:System.out.println("browser not supported");
+		   return;
 		}
 		
 		driver.manage().deleteAllCookies();

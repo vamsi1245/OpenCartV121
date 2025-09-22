@@ -11,7 +11,7 @@ public class TC_AccountRegistrationTest extends BaseClass {
 
 	@Test(groups= {"regression","master"})
 	public void test_account_Registration() {
-
+   
 		// Test steps would go here
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();

@@ -10,6 +10,7 @@
     <classes>
       <class name="testCases.TC_AccountRegistrationTest"/>
       <class name="testCases.TC_LoginTest"/>
+      <class name="testCases.TC_SearchProductTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
